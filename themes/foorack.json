@@ -2,7 +2,7 @@
   "id": "foorack-zed-theme",
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
   "name": "Foorack Zed Theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Foorack <max@foorack.com>",
   "themes": [
     {
