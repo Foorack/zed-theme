@@ -9,6 +9,8 @@
 
 # Zedrack Theme
 
+## Usage
+
 Zedrack is a Vim-insipred strong-contrast transparent theme, for the [zed.dev](https://zed.dev/) editor.
 
 ### Install via Zed Extensions
@@ -17,3 +19,30 @@ Zedrack is a Vim-insipred strong-contrast transparent theme, for the [zed.dev](h
 2. <kbd>cmd+shift+p</kbd> and select _zed: extensions_
 3. Select "Zedrack Theme" and Install
 4. Search **Zedrack** theme in the dropdown shown after hitting <kbd>cmd+k</kbd>, <kbd>cmd+t</kbd>
+
+
+## Development
+
+<details>
+
+#### Publishing to Zed Extensions Marketplace
+
+Zed organizes all extensions using `git submodules` in the [zed/extensions](https://github.com/zed-industries/extensions) repo.
+
+1. [Fork the repo](https://github.com/zed-industries/extensions/fork)
+2. Pull the currently published `extensions/zedrack-theme/` submodule
+
+   ```
+   git submodule update --init --force extensions/zedrack-theme
+   ```
+
+3. Bump the submodule
+
+   ```
+   cd extensions/zedrack-theme/ && git pull origin main
+   ```
+
+4. Modify the extensions/`extensions.toml` version to match value in [zedrack-theme/extension.toml](./extension.toml#L4)
+5. Submit a PR to merge back to `zed/extensions`
+
+</details>
