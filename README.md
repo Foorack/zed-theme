@@ -1,6 +1,6 @@
-# Zedrack Theme
-
 ![preview](/assets/preview.png)
+
+# Zedrack Theme
 
 ### Install via Zed Extensions
 
