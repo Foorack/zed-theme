@@ -1,7 +1,7 @@
 id = "zedrack-theme"
 name = "Zedrack Theme"
 schema_version = 1
-version = "0.0.5"
+version = "0.0.6"
 authors = ["Foorack <max@foorack.com>"]
 description = "Vim-insipred strong-contrast transparent theme"
 repository = "https://github.com/foorack/zed-theme"
